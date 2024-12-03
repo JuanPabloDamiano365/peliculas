@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.column {
+    width: 33.33%;
+    float: left;   
+    padding: 10px;
+    box-sizing: border-box; 
+    background-color: #fff;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.clear {
+    clear: both; 
+}
+
+
+.column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
